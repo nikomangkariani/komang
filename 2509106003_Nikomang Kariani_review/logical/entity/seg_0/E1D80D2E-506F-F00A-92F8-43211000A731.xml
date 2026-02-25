@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1D80D2E-506F-F00A-92F8-43211000A731" name="Regis_MK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:02:37 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_regis" id="DA4F11C0-D25F-84FE-B1FA-841E37916DC1">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:02:55 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NILAI" id="B2F615D3-521B-1270-DD2D-51735D2A9CB0">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:03:32 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kode_kelas" id="14F4D9CD-0EFF-0A42-2E67-6656E92C2F9E">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:30:55 UTC</createdTime>
+<generatorID>E6CA19E8-6CEB-BD9E-57A9-23EFC434A589</generatorID>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<referedAttribute>19F1CF66-8F21-8090-4A89-26C0D8D2FC9E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIM" id="5AD3E42C-D979-7508-D99E-FE2D39AB5761">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:28 UTC</createdTime>
+<generatorID>C813D996-73EB-2489-7135-53EC60C1C247</generatorID>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<referedAttribute>82CEF8B9-8A7D-72FF-1811-C6B9253FCBA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C42156B-FCE9-3E2B-EE26-7B0E45E57EF5" name="Regis_MK PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:03:30 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA4F11C0-D25F-84FE-B1FA-841E37916DC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

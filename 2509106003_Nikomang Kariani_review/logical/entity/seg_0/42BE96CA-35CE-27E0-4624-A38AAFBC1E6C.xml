@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42BE96CA-35CE-27E0-4624-A38AAFBC1E6C" name="Prodi">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:36:51 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kode_prodi" id="88AB53A3-70E8-8C50-5081-A09F90B72B21">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:38:07 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_prodi" id="F8C9CB60-1794-DB8F-693B-17BCAAC8B6B1">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:41:50 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_fakultas" id="5E99CABF-6ECC-93B7-4AB7-76F5F70222B5">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:43:00 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72E18477-244C-B38C-C720-8B417EFCC3EF" name="Prodi PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:40:35 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88AB53A3-70E8-8C50-5081-A09F90B72B21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

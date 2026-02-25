@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_20" directorySegmentName="seg_0" id="E6CA19E8-6CEB-BD9E-57A9-23EFC434A589">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:30:55 UTC</createdTime>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<sourcePk>D173697B-DF02-981D-1EBA-BF9F3D01FB0F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5FB9584-F14C-52AC-D6E1-4563678D219E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E1D80D2E-506F-F00A-92F8-43211000A731</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

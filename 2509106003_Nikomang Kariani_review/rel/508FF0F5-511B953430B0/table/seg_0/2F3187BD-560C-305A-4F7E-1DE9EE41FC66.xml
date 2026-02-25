@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F3187BD-560C-305A-4F7E-1DE9EE41FC66" name="Prodi">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>42BE96CA-35CE-27E0-4624-A38AAFBC1E6C</generatorID>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kode_prodi" id="2F0D5DC8-5578-B0F8-F5EB-5666687BE6C0">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>88AB53A3-70E8-8C50-5081-A09F90B72B21</generatorID>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_prodi" id="5A01A992-C4FE-851A-B7EB-3C7CE5CC7A74">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>F8C9CB60-1794-DB8F-693B-17BCAAC8B6B1</generatorID>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_fakultas" id="0958ED1D-BB0D-E2B5-B7EC-731479691AEA">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>5E99CABF-6ECC-93B7-4AB7-76F5F70222B5</generatorID>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8AE4A19-CCD4-3DF2-404C-4DE0177E0420" name="Prodi_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>72E18477-244C-B38C-C720-8B417EFCC3EF</generatorID>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F0D5DC8-5578-B0F8-F5EB-5666687BE6C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

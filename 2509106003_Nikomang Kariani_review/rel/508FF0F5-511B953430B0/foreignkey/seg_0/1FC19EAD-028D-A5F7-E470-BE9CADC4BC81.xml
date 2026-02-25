@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1FC19EAD-028D-A5F7-E470-BE9CADC4BC81" containerWithKeyObject="F16235D5-A46F-A9BC-4CCF-12AFCB99E2A0" localFKIndex="0EADE7F1-EFAC-BE59-8E1C-9E85A5EC1F28" name="Kelas_Dosen_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>A7AEBEAB-C984-65A4-F7CC-F430E09E79DB</generatorID>
+<ownerDesignName>2509106003_Nikomang Kariani_review</ownerDesignName>
+<referredTableLongName>Dosen</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C48ACB94-75AF-489A-8D90-BE5D9E79E011</referredTableID>
+<keyObject>BD1F84A9-D97D-E73C-70A0-9C517E665071</keyObject>
+<referredKeyID>BD1F84A9-D97D-E73C-70A0-9C517E665071</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
