@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F16235D5-A46F-A9BC-4CCF-12AFCB99E2A0" name="Kelas">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>F5FB9584-F14C-52AC-D6E1-4563678D219E</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kode_kelas" id="AF609886-9F12-E44B-76D0-B891B5FEC7E7">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>19F1CF66-8F21-8090-4A89-26C0D8D2FC9E</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tahun_ajaran" id="44C39E5D-4BF2-C865-CE5C-1D455F2398CD">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>74B81A18-E37E-A54A-B7EA-BE6614E6EA19</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="semester" id="6FF6BB3A-E27F-2DBD-22C2-36D398727232">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>F8D1C75E-4C47-4C14-E4B3-4D690F9A8A55</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hari" id="FB9A54E5-94C8-4AD2-BEFF-E5817398151F">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>7AEE0537-AF32-6CAD-34B1-2565C1031B89</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="waktu" id="4B7C7C9F-D602-C131-6A54-84DE2F62147D">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>609D5C07-681D-45B2-FD82-122645A77CA2</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruang" id="FB601AA5-0B19-9B23-AC90-8F9DDC053289">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>F09D0325-DA20-5705-DBC0-1381255FD92C</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dosen_NIP" id="0B3411F8-10CB-A20B-0C1D-3E775FB43258">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>DFA11D95-C68D-47A9-114E-0AE177D55C0A</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FC19EAD-028D-A5F7-E470-BE9CADC4BC81" referredColumn="2BF1C7C3-034D-738C-A4C7-FFC8CC158D78"/>
+</associations>
+</Column>
+<Column name="Mata_kuliah_Kode_MK" id="8F6A8808-0D66-EC6A-D77C-112EBC413265">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>71CB051E-A6BD-3657-1758-8147C0A8EAE4</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0248E838-4E45-06F5-B63C-2D3D43A19875" referredColumn="2727A4F0-4F80-165D-8F97-9FE04F5E537D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEC6F878-7DCF-26A1-CEF6-C088AFC742C0" name="Kelas_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>D173697B-DF02-981D-1EBA-BF9F3D01FB0F</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF609886-9F12-E44B-76D0-B891B5FEC7E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EADE7F1-EFAC-BE59-8E1C-9E85A5EC1F28" name="Kelas_Dosen_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>A7AEBEAB-C984-65A4-F7CC-F430E09E79DB</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B3411F8-10CB-A20B-0C1D-3E775FB43258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FA0AB5A-28A2-D7AF-2F26-B397F9CA96FB" name="Kelas_Mata_kuliah_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:57 UTC</createdTime>
+<generatorID>60786D97-D1DB-1FD0-E88E-5FE59A321EAF</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F6A8808-0D66-EC6A-D77C-112EBC413265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

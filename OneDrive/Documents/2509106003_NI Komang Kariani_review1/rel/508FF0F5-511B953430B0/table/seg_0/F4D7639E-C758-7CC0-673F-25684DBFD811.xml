@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4D7639E-C758-7CC0-673F-25684DBFD811" name="Mahasiswa">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>ECCEF6B9-64DE-F1E0-3C4D-C02B947F5B78</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIM" id="8464CDDD-25B3-4114-9FE5-FC7410A074BB">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>82CEF8B9-8A7D-72FF-1811-C6B9253FCBA2</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_mhs" id="AC99B83A-D50A-44D9-B063-0AB9CD46D4C0">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>3A258E6D-DA82-E8D7-15A6-FAE863B23FB3</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tahun_masuk" id="5625B255-2ACB-EC47-2320-4881E9864335">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>70A86C34-49B1-2E2D-DEBF-C887F800FF12</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodi_kode_prodi" id="DD15565B-006A-EF1E-24A7-CDFDA41486FC">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>05B80E31-F873-4255-9102-C38B11B2E6CE</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73ED5350-D34E-0D3C-9251-76D6C570BF5A" referredColumn="2F0D5DC8-5578-B0F8-F5EB-5666687BE6C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9B69E78-AB92-C86E-76C0-429520310E7E" name="Mahasiswa_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>DA615581-27D9-CC66-74E7-870B39A10DA7</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8464CDDD-25B3-4114-9FE5-FC7410A074BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C320EEEF-90EB-4144-0A0A-D7FFFA455277" name="Mahasiswa_Prodi_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:57 UTC</createdTime>
+<generatorID>4C6F3D3C-84FA-A737-9EFD-1054C744341D</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD15565B-006A-EF1E-24A7-CDFDA41486FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

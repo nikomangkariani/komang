@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECCEF6B9-64DE-F1E0-3C4D-C02B947F5B78" name="Mahasiswa">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:51:50 UTC</createdTime>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIM" id="82CEF8B9-8A7D-72FF-1811-C6B9253FCBA2">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:52:12 UTC</createdTime>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_mhs" id="3A258E6D-DA82-E8D7-15A6-FAE863B23FB3">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:53:11 UTC</createdTime>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tahun_masuk" id="70A86C34-49B1-2E2D-DEBF-C887F800FF12">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:53:49 UTC</createdTime>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode_prodi" id="05B80E31-F873-4255-9102-C38B11B2E6CE">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:40 UTC</createdTime>
+<generatorID>4C6F3D3C-84FA-A737-9EFD-1054C744341D</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<referedAttribute>88AB53A3-70E8-8C50-5081-A09F90B72B21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA615581-27D9-CC66-74E7-870B39A10DA7" name="Mahasiswa PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 06:53:08 UTC</createdTime>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<engineerTo>
+<item key="508FF0F5-4CFD-A3D1-187F-511B953430B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82CEF8B9-8A7D-72FF-1811-C6B9253FCBA2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

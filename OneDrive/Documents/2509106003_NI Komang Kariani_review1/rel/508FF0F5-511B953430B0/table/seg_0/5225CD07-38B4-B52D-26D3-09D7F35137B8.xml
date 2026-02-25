@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5225CD07-38B4-B52D-26D3-09D7F35137B8" name="Mata_kuliah">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>DD0FB1A7-8F8C-542A-77EE-811B7EFE9723</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kode_MK" id="2727A4F0-4F80-165D-8F97-9FE04F5E537D">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>AFEA9E93-BDFA-2D6D-F105-DC4A5B2ACC86</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_MK" id="466E6532-5C98-409E-C511-65E5778E9FD5">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>4A3D7E54-D9D8-848E-2780-438B38876CD8</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKS" id="E714C287-381F-4292-FAF6-7DC23C2EC1B1">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>AC38019A-9AC6-A12D-D482-40BA2C5DFBE9</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB08E013-E06C-4698-74FB-07B87DB26D84" name="Mata_kuliah_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:56 UTC</createdTime>
+<generatorID>5B4F49AA-9B74-3C8A-BE15-D838A15D4F3E</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2727A4F0-4F80-165D-8F97-9FE04F5E537D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

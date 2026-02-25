@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73ED5350-D34E-0D3C-9251-76D6C570BF5A" containerWithKeyObject="F4D7639E-C758-7CC0-673F-25684DBFD811" localFKIndex="C320EEEF-90EB-4144-0A0A-D7FFFA455277" name="Mahasiswa_Prodi_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-02-25 07:37:57 UTC</createdTime>
+<generatorID>4C6F3D3C-84FA-A737-9EFD-1054C744341D</generatorID>
+<ownerDesignName>2509106003_NI Komang Kariani_review1</ownerDesignName>
+<referredTableLongName>Prodi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F3187BD-560C-305A-4F7E-1DE9EE41FC66</referredTableID>
+<keyObject>A8AE4A19-CCD4-3DF2-404C-4DE0177E0420</keyObject>
+<referredKeyID>A8AE4A19-CCD4-3DF2-404C-4DE0177E0420</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kode_prodi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
